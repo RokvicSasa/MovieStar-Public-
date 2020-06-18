@@ -1,0 +1,39 @@
+{
+  "cwd": "C:\\Users\\Sasa\\Desktop\\MovieStar",
+  "type": [
+    "cordova"
+  ],
+  "name": "MovieStar",
+  "pkg": "com.logovski.moviestar",
+  "framework": "react",
+  "template": "tabs",
+  "cssPreProcessor": "scss",
+  "bundler": "webpack",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen",
+      "cordova-plugin-wkwebview-engine"
+    ]
+  },
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": false,
+    "fillBars": false
+  },
+  "customBuild": false
+}
